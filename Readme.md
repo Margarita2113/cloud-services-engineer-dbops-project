@@ -32,13 +32,17 @@ SELECT * FROM имя_таблицы
 ## Создание новой БД store и пользовтеля
 
 CREATE DATABASE store;
+
 CREATE USER <пользователь> WITH PASSWORD <пароль>;
+
 GRANT ALL privileges ON DATABASE store TO <пользователь>;
+
 ALTER DATABASE store OWNER TO <пользователь>;
 
 ## GitHUB secrets
 
 Создаём и задаём значения для: DB_HOST, DB_PORT, DB_NAME, DB_USER и DB_PASSWORD.
+
 
 
 
